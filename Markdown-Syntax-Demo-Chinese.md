@@ -2,11 +2,14 @@
 ## <center><font face="楷体" size=5>Hello_Warden</font></center>
 
 ### 使用软件与环境搭建
+
 1. **软件**：VisualStudio Code [官方下载地址](https://code.visualstudio.com/download)
+
 2. **插件与扩展**：
    - Markdown Preview Enhanced
    - Markdown ALL in One
    - Paste Image
+
 3. **环境**：Windows 11
 
 ### Markdown语法演示
