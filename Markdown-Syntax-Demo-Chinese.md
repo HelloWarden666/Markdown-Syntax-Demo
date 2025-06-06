@@ -87,6 +87,17 @@
       return 0;
    }
    ```
+
+   ==***C++***==
+   ```C++
+   #include <iostream>
+   using namespace std;
+   int main(){
+      cout << "Hello, World!" << endl;
+      return 0;
+   }
+   ```
+
    ==***Java***==
    ```Java
    public class HelloWord {
@@ -94,6 +105,26 @@
          System.out.println("Hello, World!");
       }
    }
+   ```
+
+   ==***JavaScript***==
+   ```JavaScript
+   console.log("Hello, World!");
+   ```
+
+   ==***HTML***==
+   ```HTML
+   <!DOCTYPE html>
+   <html lang="en">
+      <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Document</title>
+      </head>
+      <body>
+         <h1>Hello, World!</h1>
+      </body>
+   </html>
    ```
 
 7. 分割线

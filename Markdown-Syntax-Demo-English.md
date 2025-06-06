@@ -6,9 +6,9 @@
 1. **Software**: Visual Studio Code [Official Download](https://code.visualstudio.com/download)
 
 2. **Extensions**:
-   - Markdown Preview Enhanced
-   - Markdown ALL in One
-   - Paste Image
+ - Markdown Preview Enhanced
+ - Markdown ALL in One
+ - Paste Image
 
 3. **Environment**: Windows 11
 
@@ -16,29 +16,29 @@
 
 1. Headers
 Use hash symbols + space + content, with six levels available:
-- Level 1: `# Header`
-- Level 2: `## Header`
-- Level 3: `### Header`
-- Level 4: `#### Header`
-- Level 5: `##### Header`
-- Level 6: `###### Header`
+ - Level 1: `# Header`
+ - Level 2: `## Header`
+ - Level 3: `### Header`
+ - Level 4: `#### Header`
+ - Level 5: `##### Header`
+ - Level 6: `###### Header`
 
 2. Paragraphs
 Separate paragraphs with blank lines, using `-` + space:
-- First paragraph
-- Second paragraph
-- Third paragraph
+ - First paragraph
+ - Second paragraph
+ - Third paragraph
 
 3. Lists
 - **Unordered lists**: Use `-` + space + content:
   - List1
-    - List1.1
-    - List1.2
-    - List1.3
+     - List1.1
+     - List1.2
+     - List1.3
   - List2
-    - List2.1
-    - List2.2
-    - List2.3
+     - List2.1
+     - List2.2
+     - List2.3
 
 - **Ordered lists**: Use numbers + space + content:
   1. List1
@@ -51,9 +51,9 @@ Separate paragraphs with blank lines, using `-` + space:
      3. List2.3
 
 - **TodoList**: Use `-` + space + `[ ]` + content:
-  - [ ] a
-  - [x] b
-  - [ ] c
+ - [x] a
+ - [x] b
+ - [x] c
 
 4. Tables
 - **Basic table**:
@@ -90,6 +90,17 @@ Separate paragraphs with blank lines, using `-` + space:
       return 0;
    }
    ```
+
+   ==***C++***==
+   ```C++
+   #include <iostream>
+   using namespace std;
+   int main(){
+      cout << "Hello, World!" << endl;
+      return 0;
+   }
+   ```
+
    ==***Java***==
    ```Java
    public class HelloWord {
@@ -98,6 +109,27 @@ Separate paragraphs with blank lines, using `-` + space:
       }
    }
    ```
+
+   ==***JavaScript***==
+   ```JavaScript
+   console.log("Hello, World!");
+   ```
+
+   ==***HTML***==
+   ```HTML
+   <!DOCTYPE html>
+   <html lang="en">
+      <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Document</title>
+      </head>
+      <body>
+         <h1>Hello, World!</h1>
+      </body>
+   </html>
+   ```
+
 7. Horizontal Rules
    - Use three or more `-`, `*` or `_`:
      - ---
@@ -120,7 +152,7 @@ Separate paragraphs with blank lines, using `-` + space:
       >>WIKI: Welcome to the official Wiki for ESP32-DIV, a powerful open-source multi-band wireless toolkit built on the ESP32 microcontroller! Designed for wireless testing, signal analysis, and protocol exploration, the ESP32-DIV supports Wi-Fi, Bluetooth Low Energy (BLE), 2.4GHz, and Sub-GHz frequencies. Whether you're a cybersecurity enthusiast, a wireless tech hobbyist, or an IoT developer, this project offers a versatile platform for your experiments.
       >>>⚠️ Disclaimer: This project is for educational and research purposes only. Do not use it for malicious activities or unauthorized access.
 
-10.  Footnotes
+10.   Footnotes
     - Here's a footnote[^1] reference.
 
 ### Mathematical Formulas
