@@ -118,16 +118,16 @@
       >>>⚠️ Disclaimer: This project is for educational and research purposes only. Do not use it for malicious activities or unauthorized access.
 
 10.  脚注
-    - 脚注：使用[^ 1]+(脚注内容)的输入方式呈现，在程序最下放写上脚注来源即可，示例：
+    - 脚注：使用`[^1]+(脚注内容)`的输入方式呈现，在程序最下放写上脚注来源即可，示例：
     - 这里有一个脚注[^1]，大家可以看看。
 
 ### 数学公式
 
-1. 行内公式：使用$+公式内容+$，示例：
+1. 行内公式：使用`$+公式内容+$`，示例：
    三相电功率计算公式
     - $P=√3*U*I*cos(φ)$
 
-2. 行间公式：使用$$+公式内容+$$，示例：
+2. 行间公式：使用`$$+公式内容+$$`，示例：
    输入电流有效值为IRMS
     - $$IRMS=\frac{Po}{η*umin*cosφ}$$
 

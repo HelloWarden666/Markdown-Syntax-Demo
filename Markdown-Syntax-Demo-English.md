@@ -99,7 +99,7 @@ Separate paragraphs with blank lines, using `-` + space:
    }
    ```
 7. Horizontal Rules
-   - Use three or more -, * or _:
+   - Use three or more `-`, `*` or `_`:
      - ---
      - ***
      - ___
@@ -125,11 +125,11 @@ Separate paragraphs with blank lines, using `-` + space:
 
 ### Mathematical Formulas
 
-1. Inline: $formula$
+1. Inline: `$formula$`
    Three-phase power formula:
     - $P=√3*U*I*cos(φ)$
 
-2. Block: $$formula$$
+2. Block: `$$formula$$`
    IRMS current calculation:
     - $$IRMS=\frac{Po}{η*umin*cosφ}$$
 
