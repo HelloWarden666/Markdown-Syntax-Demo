@@ -171,5 +171,80 @@ Separate paragraphs with blank lines, using `-` + space:
    | $P=√3*U*I*cos(φ)$ | Three-phase power formula |
    | $$IRMS=\frac{Po}{η*umin*cosφ}$$ | IRMS current calculation |
 
+### Diagrams
+
+1. Diagram
+   ```mermaid
+   graph LR
+   A[Square Rect] --> B((Circle))
+   A --> C(Round Rect)
+   B --> D{Rhombus}
+   C --> D
+   ```
+
+2. Sequence Diagram
+   ```mermaid
+   sequenceDiagram
+   participant Alice
+   participant Bob
+   Alice->>John: Hello John, how are you?
+   loop Healthcheck
+      John->>John: Fight against hypochondria
+      end
+   Note right of John: Rational thoughts!
+   John-->>Alice: Great!
+   John->>Bob: How about you?
+   Bob-->>John: Jolly good!
+   ```
+
+3. Gantt
+   ```mermaid
+   gantt
+   dateFormat YYYY-MM-DD
+   title A Gantt Diagram
+   section Section
+   A task           :a1, 2014-01-01, 30d
+   Another task     :after a1  , 20d
+   section Another
+   Task in sec      :2014-01-12  , 12d
+   another task      : 24d
+   ```
+
+4. Class Diagram
+   ```mermaid
+   classDiagram
+   Class01 <|-- AveryLongClass : Cool
+   <<interface>> Class01
+   Class09 --> C2 : Where am i?
+   Class09 --* C3
+   Class09 --|> Class07
+   Class07 : equals()
+   Class07 : Object[] elementData
+   Class01 : size()
+   Class01 : int chimp
+   Class01 : int gorilla
+   Class08 <--> C2: Cool label
+   ```
+
+5. pie Chart
+   ```mermaid
+   pie
+   title Key elements in Product X
+   "Calcium" : 42.96
+   "Potassium" : 50.05
+   "Magnesium" : 10.01
+   "Hydrogen" : 8.04
+   ```
+
+6. State Diagram
+   ```mermaid
+   stateDiagram-v2
+   [*] --> Still
+   Still --> [*]
+   Still --> Moving
+   Moving --> Still
+   Moving --> Crash
+   Crash --> [*]
+   ```
 
 [^1]: (https://www.scribbr.com/citing-sources/what-are-footnotes/)

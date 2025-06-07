@@ -168,5 +168,79 @@
    | $P=√3*U*I*cos(φ)$ | 三相电功率计算公式 |
    | $$IRMS=\frac{Po}{η*umin*cosφ}$$ | 输入电流有效值为IRMS |
 
+### 流程图
+1. 图表
+   ```mermaid
+   graph LR
+   A[Square Rect] --> B((Circle))
+   A --> C(Round Rect)
+   B --> D{Rhombus}
+   C --> D
+   ```
+
+2. 序列图
+   ```mermaid
+   sequenceDiagram
+   participant Alice
+   participant Bob
+   Alice->>John: Hello John, how are you?
+   loop Healthcheck
+      John->>John: Fight against hypochondria
+   end
+   Note right of John: Rational thoughts!
+   John-->>Alice: Great!
+   John->>Bob: How about you?
+   Bob-->>John: Jolly good!
+   ```
+
+3. Gantt
+   ```mermaid
+   gantt
+   dateFormat YYYY-MM-DD
+   title A Gantt Diagram
+   section Section
+   A task           :a1, 2014-01-01, 30d
+   Another task     :after a1 , 20d
+   section Another
+   Task in sec      :2014-01-12, 12d
+   another task      : 24d
+   ```
+
+4. 类图
+   ```mermaid
+   classDiagram
+   Class01 <|-- AveryLongClass : Cool
+   <<interface>> Class01
+   Class09 --> C2 : Where am i?
+   Class09 --* C3
+   Class09 --|> Class07
+   Class07 : equals()
+   Class07 : Object[] elementDa  ta
+   Class01 : size()
+   Class01 : int chimp
+   Class01 : int gorilla
+   Class08 <--> C2 : Cool label
+   ```
+
+5. 饼图
+   ```mermaid
+   pie
+   title Key elements in Product X
+   "Calcium" : 42.96
+   "Potassium" : 50.05
+   "Magnesium" : 10.01
+   "Iron" : 5
+   ```
+
+6. 状态图   
+   ```mermaid
+   stateDiagram-v2
+   [*] --> Still
+   Still --> [*]
+   Still --> Moving
+   Moving --> Still
+   Moving --> Crash
+   Crash --> [*]
+   ```
 
 [^1]: (https://baike.baidu.com/item/%E8%85%B3%E8%A8%BB/17821082)
