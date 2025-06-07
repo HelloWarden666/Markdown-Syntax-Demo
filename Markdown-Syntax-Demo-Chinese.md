@@ -172,75 +172,75 @@
 1. 图表
    ```mermaid
    graph LR
-   A[Square Rect] --> B((Circle))
-   A --> C(Round Rect)
-   B --> D{Rhombus}
+   A[太极] --> B((两仪（白）))
+   A --> C(两仪（黑）)
+   B --> D{四象}
    C --> D
    ```
 
 2. 序列图
    ```mermaid
    sequenceDiagram
-   participant Alice
-   participant Bob
-   Alice->>John: Hello John, how are you?
-   loop Healthcheck
-      John->>John: Fight against hypochondria
+   participant 我妈
+   participant 我爸
+   我妈->>我: 今晚回来不？
+   loop 心想事成
+      我->>我: 今晚回家吃饭？不存在的！
    end
-   Note right of John: Rational thoughts!
-   John-->>Alice: Great!
-   John->>Bob: How about you?
-   Bob-->>John: Jolly good!
+
+   Note right of 我: 心里话
+   我-->>我妈: 不了，你们两老慢吃。
+   我->>我爸: 今晚不回家吃，我和我妈说了。
+   我爸-->>我: 小兔崽子，你什么B态度？
    ```
 
-3. Gantt
+3. Gantt图
    ```mermaid
    gantt
    dateFormat YYYY-MM-DD
-   title A Gantt Diagram
-   section Section
-   A task           :a1, 2014-01-01, 30d
-   Another task     :after a1 , 20d
-   section Another
-   Task in sec      :2014-01-12, 12d
-   another task      : 24d
+   title 可以用来做功课表（笑）
+   section 上午
+   C/C++           :a1, 2014-01-01, 30d
+   高等数学         :after a1 , 20d
+   section 下午
+   Java            :2014-01-12, 12d
+   PHP             : 24d
    ```
 
 4. 类图
    ```mermaid
    classDiagram
-   Class01 <|-- AveryLongClass : Cool
-   <<interface>> Class01
-   Class09 --> C2 : Where am i?
-   Class09 --* C3
-   Class09 --|> Class07
-   Class07 : equals()
-   Class07 : Object[] elementDa  ta
-   Class01 : size()
-   Class01 : int chimp
-   Class01 : int gorilla
-   Class08 <--> C2 : Cool label
+   并联机器人 <|-- 私服驱动器 : 运动
+   <<robot>> 并联机器人
+   直角坐标系机器人 --> 坐标系 : 定位控制
+   直角坐标系机器人 --* SCARA机器人 : 某些应用场景有点像
+   直角坐标系机器人 --|> 多关节机器手
+   多关节机器手 : 协作机器手 [电机扭矩较低]
+   多关节机器手 : 桌面级工业机器手 (大扭矩大概率)
+   并联机器人 : Delta机器人 [结构上和Tripod有点像，都是没有滑轨，用电机的旋转角度控制各关节的移动]
+   并联机器人 : Tripod机器人 (有三个滑轨，通过滑轨的移动来控制各关节的移动)
+   圆柱坐标机器人 <--> 坐标系 : 定位控制
    ```
 
 5. 饼图
    ```mermaid
    pie
-   title Key elements in Product X
-   "Calcium" : 42.96
-   "Potassium" : 50.05
-   "Magnesium" : 10.01
-   "Iron" : 5
+   title 大陆系统使用情况（虚假）
+   "Windows" : 42.96
+   "Linux" : 50.05
+   "苹果" : 10.01
+   "其他系统" : 5
    ```
 
 6. 状态图   
    ```mermaid
    stateDiagram-v2
-   [*] --> Still
-   Still --> [*]
-   Still --> Moving
-   Moving --> Still
-   Moving --> Crash
-   Crash --> [*]
+   [*] --> 选择
+   选择 --> [*]
+   选择 --> 复制
+   复制 --> 选择
+   复制 --> 粘贴
+   粘贴 --> [*]
    ```
 
 [^1]: (https://baike.baidu.com/item/%E8%85%B3%E8%A8%BB/17821082)
